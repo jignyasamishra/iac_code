@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "jigbucket"
+    bucket = "zigbucket"
     key    = "terraform.tfstate"
     region = "ap-south-1"
   }
